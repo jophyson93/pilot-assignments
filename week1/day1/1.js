@@ -1,4 +1,4 @@
-var console = {log: args => args}
+var console = require('./lib/consolelog.js');
 
 module.exports = function triangle() {
 var z = y = '#';
